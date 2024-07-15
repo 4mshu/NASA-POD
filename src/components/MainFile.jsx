@@ -3,7 +3,7 @@ import React from "react"
 export default function MainFile(){
     return (
         <div>
-            asdfasdf
+            <img src="mars.width-1024.jpg" alt="poster-of-mars" />
         </div>
     )
 }
