@@ -1,9 +1,8 @@
-import React from "react"
-
-export default function MainFile(){
+export default function MainFile(props) {
+    const { data } = props
     return (
-        <div>
-            <img src="mars.width-1024.jpg" alt="poster-of-mars" />
+        <div className="imgContainer">
+            <img src={data.hdurl} alt={data.title || 'bg-img'} className="bgImage" />
         </div>
     )
 }
